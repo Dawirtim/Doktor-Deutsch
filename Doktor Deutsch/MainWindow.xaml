@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="Doktor Deutsch" Height="450" Width="800">
     <Grid>
-        <ContentControl x:Name="StartPage"/>
+        <ContentControl x:Name="MainContent"/>
     </Grid>
 </Window>

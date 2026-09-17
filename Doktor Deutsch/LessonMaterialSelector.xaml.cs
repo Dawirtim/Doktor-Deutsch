@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,18 +14,15 @@ using System.Windows.Shapes;
 namespace Doktor_Deutsch
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy LessonMaterialSelector.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LessonMaterialSelector : UserControl
     {
-        public MainWindow()
+        private readonly MainWindow _mainWindow;
+        public LessonMaterialSelector(MainWindow mainWindow)
         {
             InitializeComponent();
-            MainContent.Content = new StartPage(this);
-        }
-        public void LessonMaterialSelector()
-        {
-            MainContent.Content = new LessonMaterialSelector(this);
+            _mainWindow = mainWindow;
         }
     }
 }
