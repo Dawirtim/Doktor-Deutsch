@@ -24,5 +24,10 @@ namespace Doktor_Deutsch
             InitializeComponent();
             _mainWindow = mainWindow;
         }
+
+        private void NewLesson_Click(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.LessonMaterialSelector();
+        }
     }
 }
