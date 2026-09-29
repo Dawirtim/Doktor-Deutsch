@@ -15,9 +15,9 @@ namespace Doktor_Deutsch
             _mainWindow = mainWindow;
         }
 
-        private void Return_Click(object sender, RoutedEventArgs e)
+        public void StartPage_Click(object sender, RoutedEventArgs e)
         {
-            _mainWindow.StartPage();
+            _mainWindow.MainContent.Content = new StartPage(_mainWindow);
         }
 
         private void MinimalizeWindow_Click(object sender, RoutedEventArgs e)

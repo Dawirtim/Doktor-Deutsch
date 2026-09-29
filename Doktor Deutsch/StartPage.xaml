@@ -12,9 +12,10 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0" Margin="30" VerticalAlignment="Top">
-            <GroupBox Header="Menu" MinHeight="300" VerticalAlignment="Top">
+            <GroupBox Style="{StaticResource GroupBoxStyle}" Header="Doktor Deutsch" MinHeight="300" VerticalAlignment="Top">
                 <StackPanel HorizontalAlignment="Center" Margin="5">
-                    <Button Height="30" Width="120" Content="Nowa lekcja" Click="NewLesson_Click"></Button>
+                    <Button Style="{StaticResource ControlButton}" x:Name="NewLesson" Content="Ucz się" Click="NewLesson_Click"></Button>
+                    <Button Style="{StaticResource ControlButton}" x:Name="Retake" Content="Powtórki" Click="Retake_Click"></Button>
                 </StackPanel>
             </GroupBox>
         </Grid>

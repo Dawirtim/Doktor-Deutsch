@@ -9,30 +9,27 @@ namespace Doktor_Deutsch
     /// </summary>
     public partial class MainWindow : Window
     {
-        public ObservableCollection<Word> Words { get; set; }
+        public ObservableCollection<Word>? Words { get; set; }
         public MainWindow()
         {
             InitializeComponent();
             MainContent.Content = new StartPage(this);
             Header.Content = new Header(this);
             StateChanged += MainWindow_StateChanged;
-            using var db = new Database();
+            using var db = new LocalDatabase();
             db.Database.EnsureCreated();
             var wordsFromDb = db.Words.ToList();
             Words = new ObservableCollection<Word>(wordsFromDb);
-            //Header.Visibility = Visibility.Collapsed;
         }
         public void LessonMaterialSelector()
         {
             MainContent.Content = new LessonMaterialSelector(this);
-            //Header.Visibility = Visibility.Visible;
         }
-        public void StartPage()
+        public void RetakeLessonSelector()
         {
-            MainContent.Content = new StartPage(this);
-            //Header.Visibility = Visibility.Collapsed;
+            MainContent.Content = new LessonMaterialSelector(this);
         }
-        private void MainWindow_StateChanged(object sender, EventArgs e)
+        private void MainWindow_StateChanged(object? sender, EventArgs e)
         {
             if (WindowState == WindowState.Maximized)
             {
@@ -45,14 +42,14 @@ namespace Doktor_Deutsch
         }
         public void AddWord(Word word)
         {
-            using var db = new Database();
+            using var db = new LocalDatabase();
             db.Words.Add(word);
             db.SaveChanges();
             Words.Add(word);
         }
         public void DeletWord(Word word)
         {
-            using var db = new Database();
+            using var db = new LocalDatabase();
             db.Words.Remove(word);
             db.SaveChanges();
             Words.Remove(word);
