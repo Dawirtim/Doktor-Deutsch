@@ -1,21 +1,74 @@
-MIT License
+SOURCE-AVAILABLE LICENSE
+Version 1.0
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2026 Dawid Mieczkowski
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Definitions
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+"Software" means the source code, object code, documentation, and any
+related materials made available under this License.
+
+"You" means the individual or entity exercising rights under this License.
+
+2. Grant of Rights
+
+Subject to the terms of this License, the copyright holder grants You a
+limited, non-exclusive, non-transferable, revocable license to:
+
+(a) view and study the source code of the Software;
+(b) compile and run the Software for Your personal, non-commercial use;
+(c) modify the Software solely for Your personal, non-commercial use.
+
+3. Restrictions
+
+You may NOT, without prior written permission from the copyright holder:
+
+(a) redistribute, publish, share, sublicense, sell, rent, or otherwise
+    make the Software (or any modified version) available to any third party;
+(b) use the Software, or any part of it, in a commercial product or service;
+(c) remove or alter any copyright, license, or proprietary notices;
+(d) use the name of the copyright holder to promote products or services
+    derived from the Software without prior written consent.
+
+4. Commercial Use and Distribution
+
+Any commercial use, distribution, sublicensing, or offering of the Software
+(or derivative works) to third parties requires a separate commercial
+license from the copyright holder.
+
+5. Ownership
+
+The Software is licensed, not sold. The copyright holder retains all right,
+title, and interest in and to the Software, including all intellectual
+property rights.
+
+6. No Warranty
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+7. Limitation of Liability
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+8. Termination
+
+This License terminates automatically if You breach any of its terms.
+Upon termination, You must cease all use of the Software and destroy all
+copies in Your possession.
+
+9. Governing Law
+
+This License shall be governed by and construed in accordance with the laws
+of [Poland / Your Country], without regard to its conflict of law provisions.
+
+10. Entire Agreement
+
+This License constitutes the entire agreement between You and the copyright
+holder concerning the Software and supersedes all prior agreements.
+
+END OF LICENSE
